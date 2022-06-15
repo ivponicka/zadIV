@@ -74,8 +74,8 @@ main(int argc, char * argv[])                            // glowny program
 
     // TEST 1
 
-    tworzeniePliku("plik1.bin", 4143400, 0x50, 0x55);       // tworzenie plikow (test 1)
-    tworzeniePliku("plik2.bin", 4143400, 0x50, 0x55);
+    tworzeniePliku("plik1.bin", 01010101, 0x50, 0x55);       // tworzenie plikow (test 1)
+    tworzeniePliku("plik2.bin", 01010101, 0x50, 0x55);
 
     long long BER = 0;
     ifstream plik1("plik1.bin", ios::binary | ios::in);   // wczytywanie plikow (test 1)
@@ -85,7 +85,7 @@ main(int argc, char * argv[])                            // glowny program
 
     auto start1 = chrono::high_resolution_clock::now();    // włączenie timera (test 1)
 
-    for (int i = 0; i < 4143400; i++)
+    for (int i = 0; i < 01010101; i++)
     {
       liczbaBitow2 += 8;
       BER += (int)odlegloscHamminga(buffer2[i], buffer[i]);
