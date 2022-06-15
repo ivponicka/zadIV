@@ -1,0 +1,37 @@
+T: Mon Jun 13 22:06:59 2022 M: Otwarto plik log.txt.
+T: Mon Jun 13 22:06:59 2022 M: Uruchamianie programu...
+T: Mon Jun 13 22:07:00 2022 M: Liczba sprawdzonych bitow (1 test): 33147200
+T: Mon Jun 13 22:07:00 2022 M: Liczba roznych bitorw (BER) = 0
+T: Mon Jun 13 22:07:00 2022 M: Czas obliczen: 42 ms
+T: Mon Jun 13 22:07:00 2022 M: -----------------------------
+T: Mon Jun 13 22:07:01 2022 M: Liczba sprawdzonych bitow (2 test): 41228008
+T: Mon Jun 13 22:07:01 2022 M: Liczba roznych bitorw (BER) = 0
+T: Mon Jun 13 22:07:01 2022 M: Czas obliczen: 10 ms
+T: Mon Jun 13 22:07:01 2022 M: -----------------------------
+T: Mon Jun 13 22:08:02 2022 M: Liczba sprawdzonych bitow (3 test): 2721147200
+T: Mon Jun 13 22:08:02 2022 M: Liczba roznych bitorw (BER) = 0
+T: Mon Jun 13 22:08:02 2022 M: Czas obliczen: 1986 ms
+T: Mon Jun 13 22:08:02 2022 M: -----------------------------
+T: Mon Jun 13 22:08:02 2022 M: Zamknieto plik log.txt.
+T: Mon Jun 13 22:10:32 2022 M: Otwarto plik log.txt.
+T: Mon Jun 13 22:10:32 2022 M: Uruchamianie programu...
+T: Mon Jun 13 22:10:33 2022 M: Liczba sprawdzonych bitow (1 test): 33147200
+T: Mon Jun 13 22:10:33 2022 M: Liczba roznych bitorw (BER) = 0
+T: Mon Jun 13 22:10:33 2022 M: Czas obliczen: 39 ms
+T: Mon Jun 13 22:10:33 2022 M: -----------------------------
+T: Mon Jun 13 22:10:33 2022 M: Liczba sprawdzonych bitow (2 test): 41228008
+T: Mon Jun 13 22:10:33 2022 M: Liczba roznych bitorw (BER) = 0
+T: Mon Jun 13 22:10:33 2022 M: Czas obliczen: 10 ms
+T: Mon Jun 13 22:10:33 2022 M: -----------------------------
+T: Mon Jun 13 22:11:35 2022 M: Liczba sprawdzonych bitow (3 test): 2721147200
+T: Mon Jun 13 22:11:53 2022 M: Liczba roznych bitorw (BER) = 0
+T: Mon Jun 13 22:11:53 2022 M: Czas obliczen: 1973 ms
+T: Mon Jun 13 22:11:53 2022 M: -----------------------------
+T: Mon Jun 13 22:11:53 2022 M: Zamknieto plik log.txt.
+T: Wed Jun 15 13:10:58 2022 M: Otwarto plik log.txt.
+T: Wed Jun 15 13:10:58 2022 M: Uruchamianie programu...
+T: Wed Jun 15 13:10:58 2022 M: Liczba sprawdzonych bitow (1 test): 33147200
+T: Wed Jun 15 13:10:58 2022 M: Liczba roznych bitorw (BER) = 0
+T: Wed Jun 15 13:10:58 2022 M: Czas obliczen: 24 ms
+T: Wed Jun 15 13:10:58 2022 M: -----------------------------
+T: Wed Jun 15 13:10:58 2022 M: Zamknieto plik log.txt.
