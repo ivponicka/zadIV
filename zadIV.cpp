@@ -26,7 +26,7 @@ void tworzeniePliku(const string name, const int count, const char wartosc, cons
     f.close();
 }
 
-void zapiszLog(string msg)           // zapisywanie logów
+void zapiszLog(string msg)      // zapisywanie logów
 {
     string ss;
     time_t czas = time(NULL);
@@ -39,7 +39,7 @@ void zapiszLog(string msg)           // zapisywanie logów
     cout.flush();
 }
 
-void otworzLog(string nazwaPliku)
+void otworzLog(string nazwaPliku)    // otwieranie loga
 {
     plikLog.open(nazwaPliku.c_str(), ios_base::app);
     if (!plikLog.good() == true)
@@ -49,7 +49,7 @@ void otworzLog(string nazwaPliku)
     zapiszLog("Otwarto plik log.txt.");
 }
 
-void zamknijLog(void)
+void zamknijLog(void)              // zamykanie loga
 {
     zapiszLog("Zamknieto plik log.txt.");
     plikLog.close();
@@ -74,7 +74,7 @@ main(int argc, char * argv[])                            // glowny program
 
     // TEST 1
 
-    tworzeniePliku("plik1.bin", 4143400, 0x50, 0x55);       // tworzenie plikow do testu 1
+    tworzeniePliku("plik1.bin", 4143400, 0x50, 0x55);       // tworzenie plikow (test 1)
     tworzeniePliku("plik2.bin", 4143400, 0x50, 0x55);
 
     long long BER = 0;
@@ -104,7 +104,7 @@ main(int argc, char * argv[])                            // glowny program
 
    // TEST 2
 
-    tworzeniePliku("plik3.bin", 1010101, 0x50, 0x55);    // tworzenie plikow do testu 2
+    tworzeniePliku("plik3.bin", 1010101, 0x50, 0x55);    // tworzenie plikow (test 2) 
     tworzeniePliku("plik3.bin", 1010101, 0x0, 0x65);
 
     long long BER2 = 0;
@@ -135,7 +135,7 @@ main(int argc, char * argv[])                            // glowny program
 
     // TEST 3
 
-    tworzeniePliku("plik5.bin", 340143400, 0x50, 0x55);    // tworzenie plikow do testu 3
+    tworzeniePliku("plik5.bin", 340143400, 0x50, 0x55);    // tworzenie plikow (test 3)
     tworzeniePliku("plik6.bin", 340143400, 0x50, 0x65);
     long long BER3 = 0;
 
