@@ -104,19 +104,19 @@ main(int argc, char * argv[])                            // glowny program
 
    // TEST 2
 
-    tworzeniePliku("plik3.bin", 1010101, 0x50, 0x55);    // tworzenie plikow (test 2) 
-    tworzeniePliku("plik3.bin", 1010101, 0x0, 0x65);
+    tworzeniePliku("plik3.bin", 01010101, 0x50, 0x55);    // tworzenie plikow (test 2) 
+    tworzeniePliku("plik4.bin", 01010111, 0x0, 0x65);
 
     long long BER2 = 0;
 
     ifstream plik3("plik3.bin", ios::binary | ios::in);   // wczytywanie plikow (test 2)
-    ifstream plik4("plik3.bin", ios::binary | ios::in);
+    ifstream plik4("plik4.bin", ios::binary | ios::in);
     vector<unsigned char> buffer3(istreambuf_iterator<char>(plik3), {});
     vector<unsigned char> buffer4(istreambuf_iterator<char>(plik4), {});
 
     auto start2 = chrono::high_resolution_clock::now();    // włączenie timera (test 2)
 
-    for (int i = 0; i < 1010101; i++)
+    for (int i = 0; i < 01010111; i++)
     {
       liczbaBitow2 += 8;
       BER2 += (int)odlegloscHamminga(buffer4[i], buffer3[i]);
@@ -135,8 +135,8 @@ main(int argc, char * argv[])                            // glowny program
 
     // TEST 3
 
-    tworzeniePliku("plik5.bin", 340143400, 0x50, 0x55);    // tworzenie plikow (test 3)
-    tworzeniePliku("plik6.bin", 340143400, 0x50, 0x65);
+    tworzeniePliku("plik5.bin", 01010101, 0x50, 0x55);    // tworzenie plikow (test 3)
+    tworzeniePliku("plik6.bin", 01010000, 0x50, 0x65);
     long long BER3 = 0;
 
     ifstream plik5("plik5.bin", ios::binary | ios::in);
@@ -146,7 +146,7 @@ main(int argc, char * argv[])                            // glowny program
 
     auto start3 = chrono::high_resolution_clock::now();    // włączenie timera (test 3)
 
-    for (int i = 0; i < 340143400; i++)
+    for (int i = 0; i < 01010101; i++)
     {
       liczbaBitow3 += 8;
       BER3 += (int)odlegloscHamminga(buffer6[i], buffer5[i]);
