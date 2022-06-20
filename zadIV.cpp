@@ -134,7 +134,6 @@ main(int argc, char * argv[])                            // glowny program
     zapiszLog("-----------------------------");
 
     // TEST 3
-
     tworzeniePliku("plik5.bin", 01010101, 0x50, 0x55);    // tworzenie plikow (test 3)
     tworzeniePliku("plik6.bin", 01010000, 0x50, 0x65);
     long long BER3 = 0;
